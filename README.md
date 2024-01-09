@@ -52,12 +52,17 @@ O en caso de no haber copiado la carpeta en el directorio correcto aparecerá un
 La aplicación cuenta con un menú (home.php) con varias imágenes que al pinchar sobre alguna de ellas podemos acceder a las diferentes secciones de la app:
 
 ![picture](https://i.imgur.com/huoZQQg.jpg)
+
 (home.php)
 
 Se puede acceder al panel lateral pinchando sobre el símbolo de las tres rayas en la parte superior, o haciendo swipe lateral desde la parte izquierda de la pantalla hacia el centro.
+
 ![picture](https://i.imgur.com/IpjYBd9.jpg)
+
 Y los botones del panel inferior enlazan a:
+
 ![picture](https://i.imgur.com/ITTihpU.jpg)
+
 - Casa: home.php
 - Carrito: pedidos.php
 - Tarjeta de una persona con un correo: distribuidores.php
@@ -69,30 +74,36 @@ Al pinchar sobre Hacer Pedido nos lleva a la página (hacerpedidos.php) desde do
 ![picture](https://i.imgur.com/haf3uga.jpg)
 
 ![picture](https://i.imgur.com/Zu0odqc.jpg)
+
 (hacerpedidos.php)	
 
 ![picture](https://i.imgur.com/ogIgsq2.jpg)
+
 (pedido.php)
 
 
 En el apartado Registro de Pedidos (registropedidos.php), podemos consultar todos los pedidos que se han realizado y nos los mostrará ordenados por fecha descendente:
 
 ![picture](https://i.imgur.com/lycFmUs.jpg)
+
 (registropedidos.php)
 
 
 Al pinchar sobre Ver en la columna de Detalles podemos ver los detalles del pedido que nos los mostrará en el archivo (detalles_pedido.php):
 
 ![picture](https://i.imgur.com/cji8QBy.jpg)
+
 (detalles_pedido.php)
 
 
 Si accedemos al apartado de distribuidores nos mostrará la lista con todos ellos, su nombre, email (al pinchar sobre el mail nos abre la aplicación de correo electrónico ya preparada para enviarle un mensaje), y teléfono (al pinchar sobre el teléfono nos abre la aplicación para realizar la llamada con el numero ya preparado). Al pinchar sobre el nombre de el distribuidor, nos llevará a un nuevo archivo (pedidosxdistri.php) que mostrará los pedidos específicos que hemos realizado a ese distribuidor ordenados por fecha descendente:
 
 ![picture](https://i.imgur.com/AcA7K1a.jpg)
+
 (distribuidores.php)
 
 ![picture](https://i.imgur.com/GUhFEWZ.jpg)
+
 (pedidosxdistri.php)
 
 
@@ -101,6 +112,7 @@ En el archivo (pedidosxdistri.php) también tenemos una columna “Detalles” q
 Al pinchar sobre el icono del €, o accediendo desde la página principal o panel lateral a el apartado Hacer Caja, no llevará a un formulario (hacercaja.php) donde eligiendo la fecha para la que queremos registrarla, y añadiendo los datos de Efectivo, TPV1 y TPV2 (datáfonos para pagos con tarjeta). Una vez pulsemos el botón de “Registrar”, nos llevará a el Registro de Cajas (registrocaja.php), y ya habrá almacenado esta caja en la base de datos.
 
 ![picture](https://i.imgur.com/dg0xRwe.jpg)
+
 (hacercaja.php)
 
 
@@ -108,6 +120,7 @@ En el apartado de Registro de Cajas (registrocaja.php), podemos ver todas las ca
 Aunque no se vea en esta imágen las fechas, están en la primera columna de la tabla, que se puede navegar sobre ella simplemente manteniendo pulsado y haciendo scroll lateral:
 
 ![picture](https://i.imgur.com/Podi9KZ.jpg)
+
 (registrocaja.php)
 
 
